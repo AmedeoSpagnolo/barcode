@@ -1,0 +1,14 @@
+#/bin/bash
+ARRAY=(\
+  "albertchen" \
+  "allenhamh" \
+  "amedeospagnolo" \
+  "dicksonma" \
+  "jeffchiu" \
+  "jessiechan" \
+  "raymondhui"\
+)
+for i in ${ARRAY[@]}
+do
+  python barcode.py $i
+done
